@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Friti Beast Dashboard 🧬</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <div class="dashboard">
+        <header>
+            <div class="logo">⚡ Dashboard</div>
+            <div class="admin-tag">Software Director: Friti Liyon</div>
+        </header>
+
+        <div class="grid">
+            <div class="card glow-green">
+                <h3>Bot Info</h3>
+                <div class="status-box">
+                    <span class="dot"></span> 48-ONLINE
+                </div>
+                <button id="start-btn">Start Bot</button>
+                <button id="stop-btn" class="btn-red">Stop</button>
+            </div>
+
+            <div class="card glow-blue">
+                <h3>Log Box</h3>
+                <div class="terminal" id="log-box">
+                    > Starting Bot... <br>
+                    > System Ready on i9 14th Gen...
+                </div>
+            </div>
+
+            <div class="card glow-purple">
+                <h3>Bot Training</h3>
+                <input type="text" id="train-input" placeholder="Teach bot: 'If someone asks X, say Y'">
+                <button id="train-btn">Teach</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
